@@ -1,0 +1,111 @@
+
+/* style of first page */
+
+body{
+    background-color: #7f64c9;
+    padding:10px;
+    height:2085px;
+}
+p.links span{
+    text-align:left;
+    font-size: 30px;
+    color:wheat;
+    font-style: italic;
+    text-decoration-line: underline;
+}
+p.links span:hover{
+    font-weight: bold;
+    color:black;
+}
+.link{
+    font-size: 50px;
+    text-align:center;
+    text-decoration: underline;
+}
+
+
+.firsthead{
+    font-family: serif;
+    color:black;
+    font-weight: bolder;
+    font-size:80px;
+}
+.language img{
+    height:100%;
+    width:100%;
+    margin : 20px;
+    padding:10px;
+}
+.container{
+    width:auto;
+    margin : 20px;
+    padding:10px;
+}
+.txt1{
+    font-weight: bold;
+    color:black;
+    margin:20px;
+    padding:40px;
+    font-size:50px;
+}
+/*start section about*/
+.about p{
+    font-weight: bold;
+    font-size:50px;
+    color:black;
+    margin:20px;
+    padding:40px;
+}
+
+
+
+/* Start our team section */
+.our-team
+{
+
+    color:rgb(19, 17, 17);
+    margin-top:40px;
+}
+.our-team .team 
+{
+  
+    min-height: 400px;
+    padding-top:30px;
+    padding-bottom:40px;
+    
+}
+.our-team .person
+{
+    font-size:20px;
+    margin-bottom:40px;
+}
+.our-team .team h2
+{
+    font-weight:bold;
+    font-size:50px;
+    padding-bottom:20px;
+}
+.our-team .person img
+{
+    width:100%;
+    height:100%;
+    border:1px solid red;
+}
+/* start animation*/
+.our-team .person:hover{
+        -webkit-transform:scale(1.1,1.1) rotate(360deg);
+        -moz-transform:scale(1.1,1.1) rotate(360deg);
+        -o-transform:scale(1.1,1.1) rotate(360deg);
+        transform:scale(1.1,1.1) rotate(360deg);
+        border: 5px solid rgb(180, 139, 139);
+    }
+
+ /* Start button */
+ 
+ 
+/* section what you need*/
+ #need .lead {
+    font-size: 40px;
+    font-style:italic;
+    
+}

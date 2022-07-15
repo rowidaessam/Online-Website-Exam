@@ -1,0 +1,65 @@
+ /* Start the calculator*/
+ body{
+    margin: 0;
+    padding: 20px 0px;
+   /* background: radial-gradient(rgb(68, 37, 61), rgb(92, 19, 75),rgb(32, 2, 24))no-repeat*/
+   
+}
+.txt input{
+    width:300px;
+    height:40px;
+    font-size: 20px;
+    background-color: rgb(243, 235, 198);
+}
+button.CLEAR{
+    background: rgb(199, 67, 27);
+    color:#FFF;
+}
+table{
+    background:white;
+    padding: 7px 5px;
+    border: 6px solid black;
+    text-align: center;
+    padding-bottom: 0px;
+    box-shadow: 0px 0px 27px rgb(240, 170, 153);
+    border-radius: 10px;
+    margin-top: 90px;
+}
+button.equal{
+    width: 80PX;
+    background: rgb(214, 190, 144);
+}
+button.equal:hover{
+    background:#ce800c ;
+}
+input.inpu[type="text"]{
+    width: 350px;
+    height: 60px;
+    border: 1px solid rgb(180, 175, 175);
+    padding: 10PX 20PX;
+    font-size: 29px;
+    background: rgb(197, 193, 193);
+    font-weight: bold;
+    margin-bottom: 25PX;
+    font-family: cursive;
+    margin-top: #DEDEDE;
+    border-bottom: 2PX solid rgb(100, 94, 92);
+
+}
+button{
+    padding: 10PX 20PX;
+    width: 80PX;
+    height: 40PX;
+    margin-bottom: 10PX;
+    font-size: 20PX;
+    font-weight: bold;
+    background:rgb(214, 190, 144);
+    border: none;
+    color:black;
+    border-radius: 5PX;
+    cursor: pointer;
+
+}
+button:hover{
+    background:#ce800c;
+}

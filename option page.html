@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Option Page</title>
+        <style>
+            body{
+                background-color: hsl(256, 48%, 59%);
+                padding:50px;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            function myFunction() {
+              "use strict";
+               var id = prompt("please enter your id ");
+               if(id==0 || id <0){
+                   alert("error in your id");
+               }else if( id<=50){
+                window.open("exam1.html");
+               }else if( id>50 && id <=100){
+                window.open("exam2.html");
+               }else if( id>100 && id<=150){
+                window.open("exam3.html");
+               }else if (id >150 && id<=200 ){
+                   window.open("exam4.html");
+               }else{
+                   alert("undefined!");
+                }
+            }
+            myFunction();
+            </script>
+    </body>
+</html>
